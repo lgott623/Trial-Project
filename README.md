@@ -1,13 +1,20 @@
-
-<h2>New Case</h2>
-<p>New Case</p>
-
+<!DOCTYPE html>
+<html>
+<head>
 <script>
-document.write(CC: Chest Pain);
-document.write(HPI: Dull pain. With dyspnea. Worse on exertion);
-document.write(Labs: Positive Troponin);
-  
+function myFunction() {
+    document.getElementById("NSTEMI").innerHTML = "CC: Chest Pain. \n HPI: Dull pain. With dyspnea. Worse on exertion";
+}
 </script>
+</head>
+
+<body>
+
+<h2>JavaScript in Head</h2>
+
+<p id="NSTEMI">CC: Chest Pain</p>
+
+<button type="button" onclick="myFunction()">More Info</button>
 
 </body>
 </html> 
